@@ -1,0 +1,19 @@
+
+$primary-xo: #170C17;
+$primary-o: #280F2A;
+$primary: #6c386c;
+$primary-l: #964f96;
+$primary-xl: #c165c1;
+
+$secondary-xo: #060324;
+$secondary-o: #0e064f;
+$secondary: #2b14f9;
+$secondary-l: #5643ff;
+$secondary-xl: #6756ff;
+
+$gradient: linear-gradient(230deg, $secondary-xl 0%, $primary-xl 70%);
+$gradient-o: linear-gradient(90deg, $primary 0%, $primary-o 90%);
+$gradient-xo: linear-gradient(90deg, $primary-o 30%, $primary-xo 100%);
+
+$font-color: #fff;
+$font: 'Exo', sans-serif;

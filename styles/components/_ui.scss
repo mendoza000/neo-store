@@ -1,0 +1,99 @@
+.ui__navbar-list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  height: 6rem;
+}
+.ui__navbar-item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ui__navbar-item-a{
+  padding: 0 2rem;
+  margin-left: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ui__navbar-item-menu{
+  margin-right: 4rem;
+  width: 4rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  svg{
+    stroke: #fff;
+    fill: #fff;
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
+.ui__btn{
+  border: none;
+  outline: none;
+  min-width: 13rem;
+  max-width: 13rem;
+  min-height: 4rem;
+  max-height: 4rem;
+  border-radius: 0.7rem;
+  font-weight: bold;
+}
+.ui__btn-primary{
+  background: $gradient;
+  color: $font-color;
+}
+.ui__btn-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+.ui__mt-2{
+  margin-top: 2rem;
+}
+.ui__mt-4{
+  margin-top: 4rem;
+}
+.ui__mt-6{
+  margin-top: 6rem;
+}
+.ui__gg-4{
+  grid-gap: 4rem;
+}
+
+.ui__footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../public/backFooter.svg");
+  background-color: #000;
+  background-size: cover;
+  height: 20rem;
+}
+
+.ui__footer-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  grid-gap: 2rem;
+
+  span{
+    transition: color .3s, text-decoration .3s;
+    cursor: pointer;
+    &:hover{
+      color: $primary-xl;
+      text-decoration: underline;
+    }
+  }
+}
